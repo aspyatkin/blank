@@ -2,7 +2,7 @@
 A minimal theme for [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh).
 
 ## Prerequisites
-1. [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) with git plugin enabled.
+1. [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) with `git` and `virtualenv` plugins enabled.
 
 ## Installation
 1. Copy `blank.zsh-theme` to `~/.oh-my-zsh/custom`.
