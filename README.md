@@ -1,4 +1,6 @@
 # blank
+[![Latest Version](https://img.shields.io/github/release/aspyatkin/blank.svg?style=flat-square)](https://github.com/aspyatkin/blank/releases)
+[![License](https://img.shields.io/github/license/aspyatkin/blank.svg?style=flat-square)](https://github.com/aspyatkin/blank/blob/master/LICENSE)  
 A theme for [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) with Git, SSH and Virtualenv prompts.
 
 ## Screenshots
