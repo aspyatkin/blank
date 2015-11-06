@@ -1,9 +1,9 @@
 function blank_ssh_prompt() {
     if [[ -n $SSH_CONNECTION ]] || [[ $UID -eq 0 ]]; then
         if [[ $UID -eq 0 ]]; then
-            echo "%{$fg_bold[red]%}%n@%M%{$reset_color%} "
+            echo "%{$fg_bold[red]%}%n@$(hostname -f)%{$reset_color%} "
         else
-            echo "%{$fg_bold[blue]%}%n@%M%{$reset_color%} "
+            echo "%{$fg_bold[blue]%}%n@$(hostname -f)%{$reset_color%} "
         fi
     fi
 }
