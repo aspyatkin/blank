@@ -28,5 +28,5 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_AHEAD="↑"
 ZSH_THEME_GIT_PROMPT_BEHIND="↓"
 
-ZSH_THEME_VIRTUALENV_PREFIX=" %{$fg[magenta]%}%{$fg_bold[magenta]%}"
-ZSH_THEME_VIRTUALENV_SUFFIX="%{$reset_color%}%{$fg[magenta]%}%{$reset_color%}"
+ZSH_THEME_VIRTUALENV_PREFIX=" %{$fg[magenta]%}❪%{$fg_bold[magenta]%}"
+ZSH_THEME_VIRTUALENV_SUFFIX="%{$reset_color%}%{$fg[magenta]%}❫{$reset_color%}"
